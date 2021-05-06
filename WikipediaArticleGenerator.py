@@ -13,6 +13,7 @@ while True:
   if answer == 'Y':
     url = "https://en.wikipedia.org/wiki/%s" % title
     webbrowser.open(url)
+    print('Enjoy!')
     break
   elif answer == "N":
     print("Does this interest you?:")
